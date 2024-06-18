@@ -22,4 +22,4 @@ jobs:
           git config user.email bot@rcdb-api.com
           git pull
           git diff --quiet && git diff --staged --quiet || git commit -am "[bot] update RCDB Theme Parks database"
-          git push origin main
+          git push origin master
